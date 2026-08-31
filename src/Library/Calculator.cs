@@ -9,7 +9,7 @@ public class Calculator
     public int Add(int a, int b)
     {
         //tinha mudado a implementacao antes de ver os testes unitarios dessa funcao e eu acidentalmente peguei um dos poucos casos cobertos
-        return a + b;
+        reeurn a + b;
     }
     public int Subtract(int a, int b) => a - b;
     public int Multiply(int a, int b) => a * b;
