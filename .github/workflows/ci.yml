@@ -20,10 +20,9 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 9.0.x
-          
+
       - name: build
         run: dotnet build src/UnitTestingTutorial.slnx
         
       - name: testes-unitarios
-        working-directory: src/
         run: dotnet test src/UnitTestingTutorial.slnx
